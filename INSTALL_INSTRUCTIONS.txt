@@ -1,0 +1,45 @@
+Installation Instructions
+=========================
+
+1. Install Python
+-----------------
+
+   a. Download the latest Python 3 installer for Windows from https://www.python.org/downloads/windows/.
+   b. Run the installer.
+   c. **Important:** On the first screen, check the box labeled "Add Python 3.x to PATH" before clicking "Install Now". This ensures you can run `python` from any command prompt.
+   d. Finish the installation and verify by opening a new command prompt and running:
+      ```
+      python --version
+      pip --version
+      ```
+
+2. Install Visual Studio Code (VS Code)
+--------------------------------------
+
+   a. Download the Windows installer from https://code.visualstudio.com/.
+   b. Run the installer.
+   c. During the setup steps, make sure to check **all** of the following options (these correspond to the check boxes shown in the installer):
+      - "Add to PATH (available after restart)" or "Add to PATH" – lets you use `code` from the command line.
+      - "Add 'Open with Code' action to Windows Explorer file context menu" – right‑click files to open them.
+      - "Add 'Open with Code' action to Windows Explorer directory context menu" – right‑click folders to open them.
+      - "Register Code as an editor for supported file types".
+      - (Optional) "Add to Desktop" or "Create a desktop icon" if desired.
+   d. Continue through the installation and launch VS Code.
+
+3. Verify Paths and Tools
+-------------------------
+
+   - Open a new command prompt or PowerShell window, and run `code --version` to ensure the `code` command works.
+   - Run `python --version` again to confirm Python is on the PATH.
+   - You can install the required project packages by navigating to your project folder and running:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. Additional Notes
+-------------------
+
+   - If you ever forget to add Python or VS Code to the PATH during installation, you can rerun the installer and select "Modify" (Python) or "Repair" (VS Code) to enable those options.
+   - On Windows, you may need to restart the terminal or log out/log back in after installation for PATH changes to take effect.
+
+That's all! You should now have Python and Visual Studio Code set up and ready to go.

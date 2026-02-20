@@ -1,0 +1,10 @@
+# Python dependencies for the feather_project
+
+opencv-python
+numpy
+mss
+pyautogui
+keyboard
+pygetwindow
+
+# If your code uses other libraries, add them here.
